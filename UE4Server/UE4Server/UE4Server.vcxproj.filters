@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Network">
+      <UniqueIdentifier>{982a4b20-158f-4d47-9bbb-5270455bde5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Utils">
+      <UniqueIdentifier>{b1b8cacc-d10f-4352-a943-d39384756d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Config">
+      <UniqueIdentifier>{33a35112-004a-4082-a595-0e2e8d4f6407}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UE4Server.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ConnectionManager.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ConnectionInstance.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\var_helper.h">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PacketHandler.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Network\ConnectionManager.h">
+      <Filter>Quelldateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ConnectionInstance.h">
+      <Filter>Quelldateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\PacketHandler.h">
+      <Filter>Quelldateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\packet.h">
+      <Filter>Quelldateien\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\config.h">
+      <Filter>Quelldateien\Config</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
